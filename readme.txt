@@ -25,5 +25,5 @@ Let the world know who's visiting your blog and learn more about your readers as
 
 6. You can position the widget and set configuration parameters as per your preference. All parameters are optional. 
 
-For more information visit: http://www.mybloglog.com/buzz/community/com_widget_wp.php 
+For more information please [click here](http://www.mybloglog.com/buzz/community/com_widget_wp.php). 
 
