@@ -1,7 +1,6 @@
 === MyBlogLog: Reader Roll===
 Contributors: MyBlogLog Team
-Tags: mybloglog, recent readers, reader roll, social, community, stats,
-members, profiles, readers, visitors
+Tags: mybloglog, recent readers, social, community, stats, visitors
 
 Requires at least: 2.5
 Tested up to: 2.5
