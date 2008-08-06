@@ -31,8 +31,7 @@ function widget_mybloglog_readerroll_init() {
 			if ($n_m == 0) {
 				        $valid_code = '';
 			}
-                        if($valid_code)
-  			   $newoptions['mybloglog_rr-code'] = $valid_code;
+			$newoptions['mybloglog_rr-code'] = $valid_code;
 
 			$valid_code = urldecode($_REQUEST['mybloglog_rr-code_box']);
 			// Making sure it's a MyBlogLog widget
@@ -52,11 +51,10 @@ function widget_mybloglog_readerroll_init() {
 			$newoptions['mybloglog_rr-widget_width'] = $_POST['mybloglog_rr-widget_width'];
 			$newoptions['mybloglog_rr-widget_rows'] = $_POST['mybloglog_rr-widget_rows'];
 			$newoptions['mybloglog_rr-view_id'] = $_POST['mybloglog_rr-view_id'];
-
 		}
-		if ($options != $newoptions) {
+		if ($options != $newoptions && $newoptions['mybloglog_rr-code']) {
 			$options = $newoptions;
-      			update_option('widget_mybloglog', $options);
+			update_option('widget_mybloglog', $options);
 		}
 
 		$widget_type = $options['mybloglog_rr-widget_type'];
