@@ -30,4 +30,4 @@ For more information please [click here](http://www.mybloglog.com/buzz/community
 
 == Screenshots ==
 
-1. Recent Reader plug-in
+1. Recent Readers plugin displaying the public photo lineup of recent visitors
