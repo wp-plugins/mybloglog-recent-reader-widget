@@ -5,7 +5,7 @@ Plugin Name: MyBlogLog Recent Readers Widget
 Plugin URI: http://www.mybloglog.com/buzz/community/com_widget_wp.php
 Description: Adds MyBlogLog Recent Readers widget to your blog.
 Author: MyBlogLog Team
-Version: 3.0
+Version: 3.0.1
 Author URI: http://www.mybloglog.com
 */
 
@@ -51,9 +51,8 @@ function widget_mybloglog_readerroll_init() {
 			$newoptions['mybloglog_rr-widget_width'] = $_POST['mybloglog_rr-widget_width'];
 			$newoptions['mybloglog_rr-widget_rows'] = $_POST['mybloglog_rr-widget_rows'];
 			$newoptions['mybloglog_rr-view_id'] = $_POST['mybloglog_rr-view_id'];
-
 		}
-		if ($options != $newoptions) {
+		if ($options != $newoptions && $newoptions['mybloglog_rr-code']) {
 			$options = $newoptions;
 			update_option('widget_mybloglog', $options);
 		}
