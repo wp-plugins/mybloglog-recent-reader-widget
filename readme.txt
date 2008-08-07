@@ -28,3 +28,6 @@ Let the world know who's visiting your blog and learn more about your readers as
 
 For more information please [click here](http://www.mybloglog.com/buzz/community/com_widget_wp.php). 
 
+== Screenshots ==
+
+1. Recent Reader plug-in
